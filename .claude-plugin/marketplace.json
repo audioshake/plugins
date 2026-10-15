@@ -1,0 +1,27 @@
+{
+  "name": "audioshake",
+  "description": "AudioShake plugins and skills for Claude: stem separation, transcription and more.",
+  "owner": {
+    "name": "AudioShake",
+    "url": "https://www.audioshake.ai"
+  },
+  "plugins": [
+    {
+      "name": "audioshake",
+      "displayName": "AudioShake",
+      "description": "Run AudioShake models from Claude with the audioshake CLI and Python library: stems, dialogue isolation, speech clean-up, lyric transcription and alignment.",
+      "source": {
+        "source": "git-subdir",
+        "url": "audioshake/audioshake-python",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "author": { "name": "AudioShake" },
+      "homepage": "https://github.com/audioshake/audioshake-python",
+      "repository": "https://github.com/audioshake/audioshake-python",
+      "license": "MIT",
+      "category": "audio",
+      "keywords": ["audioshake", "audio", "stem separation", "transcription", "lyrics", "cli"]
+    }
+  ]
+}
