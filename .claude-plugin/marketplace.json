@@ -14,7 +14,7 @@
         "source": "git-subdir",
         "url": "audioshake/audioshake-python",
         "path": "plugin",
-        "ref": "main"
+        "ref": "v0.1.0"
       },
       "author": { "name": "AudioShake" },
       "homepage": "https://github.com/audioshake/audioshake-python",
