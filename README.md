@@ -16,14 +16,14 @@ You need an AudioShake account. Create an API key in the
 Inside Claude Code:
 
 ```
-/plugin marketplace add audioshake/claude-plugins
+/plugin marketplace add audioshake/plugins
 /plugin install audioshake-cli@audioshake
 ```
 
 Or from your shell:
 
 ```bash
-claude plugin marketplace add audioshake/claude-plugins
+claude plugin marketplace add audioshake/plugins
 claude plugin install audioshake-cli@audioshake
 ```
 
@@ -32,7 +32,7 @@ claude plugin install audioshake-cli@audioshake
 From your shell:
 
 ```bash
-codex plugin marketplace add audioshake/claude-plugins
+codex plugin marketplace add audioshake/plugins
 codex plugin add audioshake-cli@audioshake
 ```
 
